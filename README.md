@@ -1,5 +1,5 @@
-# diaro-musical
-Um diario de musicas que registra oque voce esta ouvindo. Parecido com o last fm.
+# backlog-e-avaliador-de-musicas-e-albuns
+Um backlog onde voce pode registrar e avaliar musicas e albuns que voce escutou. 
 
 RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 
