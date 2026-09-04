@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD) — Sonora FM
 
 ## 1. Identificação
-* **Nome do Estudante:** [Seu Nome Completo]
+* **Nome do Estudante:** João Victor Ribeiro da Fonseca
 * **Nome do Projeto:** Sonora FM
 * **Tema do Projeto:** Backlog e Avaliação de Músicas e Álbums
 
