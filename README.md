@@ -12,8 +12,7 @@ O **Sonora FM** é uma aplicação web responsiva projetada para amantes de mús
 
 ## 🎨 Design System e Protótipo
 * **Protótipo no Stich AI:** https://stitch.withgoogle.com/projects/6264040318396843630
-* **Design System (Tokens):** [Link para a documentação de Design Tokens no /docs/architecture.md ou Figma]
-* **Framework CSS:** Bootstrap
+* **Framework CSS:** Bootstrap (Justificativa: A escolha do **Bootstrap** justifica-se pelo seu sistema de *grid* responsivo baseado em Flexbox e pela sua ampla biblioteca de componentes UI prontos (*cards*, *modals*, *navbars*), permitindo acelerar a construção da interface do **Sonora FM**. Além disso, a sua fácil integração via CDN e excelente compatibilidade com Sass/SCSS facilitam a personalização do *Design System* roxo/neon, garantindo um *layout* fluído em dispositivos móveis e *desktop* sem requerer uma configuração complexa.)
 
 ---
 
@@ -22,20 +21,13 @@ O **Sonora FM** é uma aplicação web responsiva projetada para amantes de mús
 * **Estilização:** Bootstrap
 * **Lógica / DOM:** JavaScript Vanilla (ES6+)
 * **Bibliotecas JS:** jQuery (com plugin de máscara/interatividade)
-* **API Pública:** API REST do Last.fm (`chart.gettoptracks`, `track.search`, `tag.gettoptracks`)
+* **API Pública:** API REST do Last.fm (Justificativa:A escolha da API pública do Last.fm justifica-se por oferecer acesso gratuito a um acervo completo de metadados de músicas, álbuns e artistas em formato JSON. Ela permite consultar faixas populares em tempo real, realizar buscas instantâneas e explorar gêneros musicais, viabilizando o consumo assíncrono via fetch/async-await para enriquecer a experiência do Sonora FM e manter o backlog dinâmico sem requerer autenticação complexa (OAuth).)  (`chart.gettoptracks`, `track.search`, `tag.gettoptracks`) 
 * **API Fake / Persistência:** JSON Server & Web Storage (`localStorage`)
 
 ---
 
 ## 🚀 Link para o Site em Produção
 * **GitHub Pages:** [https://seu-usuario.github.io/sonora-fm/](https://seu-usuario.github.io/sonora-fm/)
-
----
-
-
-| Dashboard / Player | Library / Backlog | Discovery / Busca |
-| :---: | :---: | :---: |
-| ![Dashboard](docs/images/dashboard.png) | ![Library](docs/images/library.png) | ![Discovery](docs/images/discovery.png) |
 
 ---
 
