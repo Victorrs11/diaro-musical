@@ -1,5 +1,55 @@
-# backlog-e-avaliador-de-musicas-e-albuns
-Um backlog onde voce pode registrar e avaliar musicas e albuns que voce escutou. 
+# 🎵 Sonora FM - Backlog de Músicas e Álbuns
+
+## 👤 Identificação / Autor
+* **Nome:** João Victor ribeiro da Fonseca
+
+---
+
+## 📝 Descrição do Projeto
+O **Sonora FM** é uma aplicação web responsiva projetada para amantes de música gerenciarem e avaliarem o seu histórico de escuta (backlog). A plataforma permite catalogar faixas e álbuns favoritos, atribuir pontuações em estrelas, guardar preferências localmente e explorar novas tendências musicais consumindo dados em tempo real através da API pública do Last.fm.
+
+---
+
+## 🎨 Design System e Protótipo
+* **Protótipo no Stich AI:** https://stitch.withgoogle.com/projects/6264040318396843630
+* **Design System (Tokens):** [Link para a documentação de Design Tokens no /docs/architecture.md ou Figma]
+* **Framework CSS:** Bootstrap
+
+---
+
+## 🛠️ Tecnologias e Dependências
+* **Estruturação:** HTML5 Semântico
+* **Estilização:** Bootstrap
+* **Lógica / DOM:** JavaScript Vanilla (ES6+)
+* **Bibliotecas JS:** jQuery (com plugin de máscara/interatividade)
+* **API Pública:** API REST do Last.fm (`chart.gettoptracks`, `track.search`, `tag.gettoptracks`)
+* **API Fake / Persistência:** JSON Server & Web Storage (`localStorage`)
+
+---
+
+## 🚀 Link para o Site em Produção
+* **GitHub Pages:** [https://seu-usuario.github.io/sonora-fm/](https://seu-usuario.github.io/sonora-fm/)
+
+---
+
+
+| Dashboard / Player | Library / Backlog | Discovery / Busca |
+| :---: | :---: | :---: |
+| ![Dashboard](docs/images/dashboard.png) | ![Library](docs/images/library.png) | ![Discovery](docs/images/discovery.png) |
+
+---
+
+## ⚙️ Instruções de Execução
+
+### Pré-requisitos
+* Node.js instalado (para execução da API Fake via JSON Server)
+* Navegador web moderno
+
+### Passos para rodar localmente
+1. **Clonar o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/sonora-fm.git](https://github.com/seu-usuario/sonora-fm.git)
+   cd sonora-fm
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 
