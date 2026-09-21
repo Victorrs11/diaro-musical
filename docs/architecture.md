@@ -9,7 +9,31 @@ O **Sonora FM** segue o padrão de arquitetura em camadas (ou Web/API desacoplad
 
 ---
 
-## 2. Modelo de Dados (Diagrama ER — Mermaid)
+## 2. Tecnologias e Versões Utilizadas
+
+### 🎨 Frontend & UI
+* **HTML5:** Padrão W3C com semântica.
+* **CSS3 / Sass (SCSS):** `v1.72.0+` (Processamento de variáveis, mixins e utilitários customizados).
+* **Bootstrap:** `v5.3.3` (Framework CSS responsivo importado via CDN / NPM).
+* **JavaScript:** ECMAScript 2023 (ES6+ Vanilla JS).
+* **jQuery:** `v3.7.1` (Utilizado para manipulação facilitada do DOM, efeitos e gerenciamento de eventos).
+* **jQuery Mask Plugin:** `v1.14.16` (Máscaras de campos em formulários).
+
+### ⚙️ Backend, APIs & Persistência
+* **Node.js:** `v20.x` LTS (Ambiente de execução local para pacotes e utilitários).
+* **NPM:** `v10.x` (Gerenciador de pacotes).
+* **JSON Server (Fake API):** `v0.17.4` (Mock de backend REST para simular persistência de CRUD em arquivo `db.json`).
+* **Last.fm API:** `v2.0` (API Pública externa REST em JSON para busca de metadados de artistas, músicas e álbuns).
+* **Web Storage API:** `localStorage` nativo do navegador para persistência local do cliente.
+
+### 🛠️ Ferramentas de Desenvolvimento e Qualidade
+* **ESLint:** `v8.57.0` (Linter JavaScript).
+* **Prettier:** `v3.2.5` (Formatador de código).
+* **Git / GitHub:** Versionamento de código e hospedagem via GitHub Pages.
+
+---
+
+## 3. Modelo de Dados (Diagrama ER — Mermaid)
 
 O diagrama abaixo descreve as entidades do sistema e como elas se relacionam para suportar as funcionalidades do backlog e avaliações do Sonora FM.
 
