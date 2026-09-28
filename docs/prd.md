@@ -69,5 +69,4 @@ O escopo da versão inicial (MVP) contempla:
 * **RN04 — Unicidade de E-mail:** Não é permitido o cadastro de mais de uma conta com o mesmo endereço de e-mail.
 * **RN05 — Proteção de Dados:** A palavra-passe do utilizador deve ser armazenada de forma encriptada (hash) na base de dados.
 * **RN06 — Permissão de Edição e Remoção de Conteúdo:** * Um utilizador só pode editar ou eliminar as **suas próprias** avaliações e itens de backlog.
-  * Um utilizador só pode editar ou eliminar as **suas próprias** avaliações e itens de backlog.
 
