@@ -68,6 +68,6 @@ O escopo da versão inicial (MVP) contempla:
 * **RN03 — Transição de Status no Backlog:** Ao avaliar um álbum que está marcado como "Quero Ouvir", o sistema deve alterar automaticamente o status desse item para "Ouvido".
 * **RN04 — Unicidade de E-mail:** Não é permitido o cadastro de mais de uma conta com o mesmo endereço de e-mail.
 * **RN05 — Proteção de Dados:** A palavra-passe do utilizador deve ser armazenada de forma encriptada (hash) na base de dados.
-* **RN06 — Permissão de Edição e Remoção de Conteúdo:**
+* **RN06 — Permissão de Edição e Remoção de Conteúdo:** * Um utilizador só pode editar ou eliminar as **suas próprias** avaliações e itens de backlog.
   * Um utilizador só pode editar ou eliminar as **suas próprias** avaliações e itens de backlog.
-  * Apenas utilizadores com o perfil **Administrador** podem eliminar cadastros de artistas/álbuns ou moderar comentários de terceiros.
+
