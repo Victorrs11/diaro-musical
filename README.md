@@ -27,7 +27,7 @@ O **Sonora FM** é uma aplicação web responsiva projetada para amantes de mús
 ---
 
 ## 🚀 Link para o Site em Produção
-* **GitHub Pages:** [[https://seu-usuario.github.io/sonora-fm/](https://seu-usuario.github.io/sonora-fm/)](https://github.com/Victorrs11/diaro-musical)
+* **GitHub Pages:** [https://github.com/Victorrs11/diaro-musical]
 
 ---
 
