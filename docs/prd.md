@@ -37,7 +37,6 @@ O escopo da versão inicial (MVP) contempla:
 * Catálogo de artistas, álbuns e faixas.
 * Sistema de *Backlog* ("Quero Ouvir" vs. "Ouvido").
 * Sistema de avaliação de 1 a 5 estrelas com comentários/resenhas.
-* Painel de moderação e administração.
 
 ---
 
@@ -59,9 +58,6 @@ O escopo da versão inicial (MVP) contempla:
 * **HU09:** Como **Utilizador Autenticado**, quero **adicionar um álbum à minha lista de "Quero Ouvir" (Backlog)**, para que **eu me lembre de o escutar no futuro**.
 * **HU10:** Como **Utilizador Autenticado**, quero **marcar um álbum como "Ouvido"**, para que **ele seja movido da lista de pendências para o meu histórico**.
 
-### 5.4. Moderação e Administração
-* **HU11:** Como **Administrador**, quero **editar ou eliminar cadastros de álbuns duplicados ou com informações erradas**, para que **o catálogo se mantenha organizado**.
-* **HU12:** Como **Administrador**, quero **remover comentários e avaliações inadequadas**, para que **a plataforma se mantenha um ambiente saudável**.
 
 ---
 
