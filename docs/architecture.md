@@ -3,33 +3,43 @@
 ## 1. Visão Geral da Arquitetura
 O **Sonora FM** segue o padrão de arquitetura em camadas (ou Web/API desacoplada/Monólito com divisão clara de responsabilidades), separando a interface do usuário, as regras de negócio e a persistência de dados.
 
-* **Frontend:** Interface Web responsável pela navegação, formulários de cadastro, exibição dos álbuns, busca e componente interativo de avaliação (1 a 5 estrelas).
+* **Frontend:** Interface Web dinâmica responsável pela navegação, formulários de cadastro, exibição dos álbuns, busca e componente interativo de avaliação (1 a 5 estrelas), estilizada com base nos tokens do **Design System (Digital Synth)**.
 * **Backend / API:** Camada responsável por autenticação, regras de negócio (cálculo de médias de avaliação, movimentação de itens no backlog) e disponibilização de rotas CRUD.
 * **Banco de Dados / Persistência:** Armazenamento relacional dos dados de usuários, artistas, álbuns, músicas, histórico de status e avaliações.
 
 ---
 
-## 2. Tecnologias e Versões Utilizadas
+## 2. Design System & Tokens Visuais (Digital Synth)
 
-### 🎨 Frontend & UI
-* **HTML5:** Padrão W3C com semântica.
-* **CSS3 / Sass (SCSS):** `v1.72.0+` (Processamento de variáveis, mixins e utilitários customizados).
-* **Bootstrap:** `v5.3.3` (Framework CSS responsivo importado via CDN / NPM).
-* **JavaScript:** ECMAScript 2023 (ES6+ Vanilla JS).
-* **jQuery:** `v3.7.1` (Utilizado para manipulação facilitada do DOM, efeitos e gerenciamento de eventos).
-* **jQuery Mask Plugin:** `v1.14.16` (Máscaras de campos em formulários).
+A interface da aplicação adota o tema **Digital Synth**, com um visual dark moderno inspirado em sintetizadores e equipamentos de áudio[cite: 1].
 
-### ⚙️ Backend, APIs & Persistência
-* **Node.js:** `v20.x` LTS (Ambiente de execução local para pacotes e utilitários).
-* **NPM:** `v10.x` (Gerenciador de pacotes).
-* **JSON Server (Fake API):** `v0.17.4` (Mock de backend REST para simular persistência de CRUD em arquivo `db.json`).
-* **Last.fm API:** `v2.0` (API Pública externa REST em JSON para busca de metadados de artistas, músicas e álbuns).
-* **Web Storage API:** `localStorage` nativo do navegador para persistência local do cliente.
+### 2.1. Cores (Color Tokens)
+* **Primary (Roxo / Lavanda principal):** `#7E5CEF`[cite: 1]
+  * *Uso:* Botões principais, estados ativos, destaques da marca e badges[cite: 1].
+* **Secondary (Azul pastel / Periwinkle):** `#A6B1EC`[cite: 1]
+  * *Uso:* Elementos secundários, bordas interativas, ícones e estados de hover[cite: 1].
+* **Tertiary (Amarelo suave / Cream):** `#FFF7B4`[cite: 1]
+  * *Uso:* Avaliações (estrelas de 1 a 5), avisos e elementos de destaque especial[cite: 1].
+* **Neutral (Cinza claro):** `#DADADA`[cite: 1]
+  * *Uso:* Textos de corpo, rótulos e bordas neutras em superfícies escuras[cite: 1].
+* **Background & Surfaces (Tema Dark):**
+  * **Dark Canvas:** `#121214` (Fundo principal da aplicação)[cite: 1]
+  * **Dark Card / Surface:** `#1E1E22` (Superfície dos cards de álbuns, campos de busca e modais)[cite: 1]
 
-### 🛠️ Ferramentas de Desenvolvimento e Qualidade
-* **ESLint:** `v8.57.0` (Linter JavaScript).
-* **Prettier:** `v3.2.5` (Formatador de código).
-* **Git / GitHub:** Versionamento de código e hospedagem via GitHub Pages.
+### 2.2. Tipografia (Typography Tokens)
+* **Headline / Títulos:** `Outfit`[cite: 1]
+  * *Uso:* Títulos de páginas, nomes de álbuns e nomes de artistas[cite: 1].
+* **Body / Corpo de Texto:** `JetBrains Mono`[cite: 1]
+  * *Uso:* Resenhas/comentários, metadados (duração, ano), estatísticas e detalhes técnicos[cite: 1].
+* **Label / Rótulos e Botões:** `Comfortaa`[cite: 1]
+  * *Uso:* Botões, tags, labels de formulários e elementos de navegação[cite: 1].
+
+### 2.3. Componentes Visuais
+* **Botões:** `Primary`, `Secondary`, `Inverted` e `Outlined`[cite: 1].
+* **Campos de Entrada (Inputs/Search):** Fundo escuro arredondado (`#1E1E22`), bordas sutis e ícone de busca em tom neutro[cite: 1].
+* **Arredondamento (Border Radius):**
+  * Cards: `12px` a `16px`[cite: 1]
+  * Botões / Inputs: `8px` a `20px`[cite: 1]
 
 ---
 
